@@ -1,3 +1,3 @@
 # Personal Website
 
-Source code for personal site aaronmanning.net.
+Source code for my personal site aaronmanning.net.
