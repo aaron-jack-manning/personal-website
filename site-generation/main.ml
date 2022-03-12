@@ -160,6 +160,10 @@ let home_page =
             title [] [
                 text "Aaron Manning"
             ];
+
+            meta [Attributes.charset "utf-8"];
+            meta [Attributes.content "width=device-width, initial-scale=1.0"; name "viewport"];
+            meta [Attributes.content "mathematics,computing,blog,personal,textbook,software"; name "keywords"];
             
             link [href "google-fonts/montserrat.css"; rel "stylesheet"];
             link [href "bootstrap/bootstrap.min.css"; rel "stylesheet"];
@@ -200,7 +204,7 @@ let home_page =
                 section [class_ "site-description"] [
                     div [class_ "container"] [
                         div [class_ "row"] [
-                            div [class_ "col-lg-12 text-center text-lg-start"] [
+                            div [class_ "col-lg-12 text-lg-start"] [
                                 h3 [class_ "feature-title"] [
                                     text "Hello there!"
                                 ];
@@ -214,7 +218,7 @@ let home_page =
                 section [class_ "project-links"] [
                     div [class_ "container"] [
                         div [class_ "row"] [
-                            div [class_ "col-lg-offset-2 col-lg-8 col-md-12"] 
+                            div [class_ "col-lg-12 col-sm-8"] 
                                 ([
                                     project "Programming Projects" "Any programming projects I have created to make my life easier that are general enough that someone else might find them useful can be found on my GitHub page." [
                                         { text = "GitHub"; url = "https://github.com/aaron-jack-manning?repositories"}
