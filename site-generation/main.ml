@@ -23,6 +23,9 @@ let project (name : string) (description_text : string) (links : link list) =
     )))
 
 let css = [
+        create_style_group ["main"] [
+            min_height "calc(100vh - 120px)";
+        ];
         create_style_group ["body"] [
             background "#fff";
             color "#444";
@@ -245,11 +248,21 @@ let home_page =
 
             footer [class_ "footer"] [
                 div [class_ "container footer-content"] [
-                    text "If you want to contact me feel free to send me an ";
-                    a [href "mailto:contact@aaronmanning.net"] [
-                        text "email"
+                    p [] [
+                        text "If you want to contact me feel free to send me an ";
+                        a [href "mailto:contact@aaronmanning.net"] [
+                            text "email"
+                        ];
+                        text ".";
                     ];
-                    text "."
+                    p [] [
+                        text "If you've found anything I've made useful in your everyday life and want to support its development, consider making a ";
+                        a [href "https://ko-fi.com/aaronmanning"] [
+                            text "donation"
+                        ];
+                        text ". They help me justify more time on projects like this when it's not directly for my work or study."
+                    ]
+
                 ]
             ]
         ]

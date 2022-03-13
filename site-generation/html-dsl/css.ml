@@ -19,6 +19,12 @@ let create_style_group (identifiers : string list) (styles : css_style list) : s
         styles = styles;
     }
 
+let custom_tag (property : string) (value : string) : css_style =
+    {
+        property : string;
+        value : string;
+    }
+
 (* Property constructors. *)
 let align_content (value : string) =
     {
