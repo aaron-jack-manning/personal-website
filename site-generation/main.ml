@@ -255,14 +255,6 @@ let home_page =
                         ];
                         text ".";
                     ];
-                    p [] [
-                        text "If you've found anything I've made useful in your everyday life and want to support its development, consider making a ";
-                        a [href "https://ko-fi.com/aaronmanning"] [
-                            text "donation"
-                        ];
-                        text ". They help me justify more time on projects like this when it's not directly for my work or study."
-                    ]
-
                 ]
             ]
         ]
