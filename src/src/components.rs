@@ -231,9 +231,6 @@ pub fn footer() -> Html {
             <p>
                 { "If you want to contact me, feel free to send me an "}<a href={"mailto:contact@aaronmanning.net"}>{ "email"}</a>{"."}
             </p>
-            <p>
-                { "If you want to support the projects that I am working on, please consider supporting me on "}<a>{ "ko-fi" }</a>{". It helps justify the time needed away from other work to create projects like you see here."}
-            </p>
         </footer>
     }
 }
