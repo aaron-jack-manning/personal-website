@@ -150,7 +150,7 @@ pub fn projects() -> Html {
                 <Card title="Functional Programming with OCaml" description="A textbook I am working on teaching functional programming through the language OCaml." image_src="assets/ocaml-book.png" link="https://ocamlbook.aaronmanning.net"/>
                 <Card title="Blog" description="I also write to a blog about mathematics, computing and sometimes whatever else is on my mind." image_src="assets/blog.png" link="https://blog.aaronmanning.net"/>
                 <Card title="Mathil" description="A Rust library for illustrating and animating mathematical concepts." image_src="assets/mathil.png" link="https://github.com/aaron-jack-manning/mathil"/>
-                <Card title="Addilo" description="A machine learning library I created for my HSC Software Design and Development project." image_src="assets/addilo.png" link="https://addilo.net"/>
+                <Card title="Addilo" description="A machine learning library I created for my HSC Software Design and Development project." image_src="assets/addilo.png" link="https://addilo.aaronmanning.net"/>
                 <Card title="Other Programming Projects" description="All other programming projects I have put online you can find on GitHub." image_src="assets/github.png" link="https://github.com/aaron-jack-manning"/>
             </div>
         </div>
