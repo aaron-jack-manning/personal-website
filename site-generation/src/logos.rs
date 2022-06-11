@@ -2,7 +2,6 @@ use dsl::{
     *,
     nodes::*,
     attr::*,
-    css::*,
     css::Style
 };
 

@@ -127,7 +127,7 @@ fn projects() -> Div {
         flex_direction("row"),  
         justify_content("flex-start"),
         flex_wrap("wrap"),
-        gap("40px"),
+        grid_gap("40px"),
         margin("40px auto 0px auto")
     ];
 
@@ -205,7 +205,7 @@ fn home_page<A, B, C, D>(nav : A, bio : B, projects : C, footer : D) -> Html
     html!([
         head!([
             meta!([charset("utf-8")]),
-            meta!([name("viewport"), content("width=device-width, initial-scale=1")]),
+            meta!([name("viewport"), attr::content("width=device-width, initial-scale=1")]),
             title!([text!["Aaron Manning"]])
         ]),
         body!([](body_style)[
