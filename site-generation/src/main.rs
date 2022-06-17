@@ -105,7 +105,7 @@ fn card(title : &str, description : &str, image_src : &str, link : &str) -> Div 
     ];
 
     div!([](card_style)[
-        img!([src(image_src), alt("Image Not Found")][css::width("100%")]),
+        img!([src(image_src), alt("")][css::width("100%")]),
         div!([][padding("2px 16px")][
             h3!([][
                 a!([href(link)](link_style)[
@@ -168,7 +168,15 @@ fn projects() -> Div {
                 "All other programming projects I have put online you can find on GitHub.",
                 "github.png",
                 "https://github.com/aaron-jack-manning"
-            )
+            ),
+            card(
+                "Rust Crates",
+                "My Rust crates on crates.io.",
+                "crates.png",
+                "https://crates.io/users/aaron-jack-manning"
+            ),
+            card("", "", "", ""),
+            card("", "", "", "")
         ])
     ])
 }
