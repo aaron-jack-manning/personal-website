@@ -214,7 +214,8 @@ fn home_page<A, B, C, D>(nav : A, bio : B, projects : C, footer : D) -> Html
         head!([
             meta!([charset("utf-8")]),
             meta!([name("viewport"), attr::content("width=device-width, initial-scale=1")]),
-            title!([text!["Aaron Manning"]])
+            title!([text!["Aaron Manning"]]),
+            link!([rel("icon"), r#type("image/x-icon"), href("favicon.ico")][])
         ]),
         body!([](body_style)[
             // The 50px here should match the min_height on the footer, which itself should be
