@@ -4,4 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-dsl = { path = "dsl" }
+dsl = { git = "https://github.com/aaron-jack-manning/rust-html-dsl" }
+
